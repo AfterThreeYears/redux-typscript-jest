@@ -1,7 +1,7 @@
 import { ThunkDispatch } from 'redux-thunk';
 import thunk from 'redux-thunk';
 import configureMockStore from 'redux-mock-store';
-import { initState } from './reducers'
+import { initState } from './reducer';
 import * as actions from './actions';
 import * as types from './types';
 import { AnyAction } from 'redux';

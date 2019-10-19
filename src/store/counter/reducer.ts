@@ -5,10 +5,7 @@ export const initState: CounterState = {
   count: 0
 };
 
-export function counterReducer(
-  state = initState,
-  action: CounterActionType
-): CounterState {
+export function counterReducer(state = initState, action: CounterActionType): CounterState {
   switch (action.type) {
     case ADD_COUNT:
       return {
